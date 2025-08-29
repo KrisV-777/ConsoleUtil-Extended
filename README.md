@@ -16,8 +16,8 @@ SKSE plugin that allows creation of new console commands using Papyrus. Document
 
 ## Building
 ```
-git clone https://github.com/KrisV-777/Papyrus-Extender
-cd Papyrus-Extender
+git clone https://github.com/KrisV-777/ConsoleUtil-Extended.git
+cd ConsoleUtil-Extended
 git submodule update --init --recursive
 xmake f -m release [
 	--copy_to_papyrus=(y/n)		# create/update a mod instance
