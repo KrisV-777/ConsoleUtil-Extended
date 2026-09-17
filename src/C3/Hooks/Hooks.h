@@ -5,6 +5,7 @@ namespace C3
 	class Hooks
 	{
 	public:
+		static inline constexpr size_t TrampolineSize = 1 << 4;
 		static void Install();
 
 	private:

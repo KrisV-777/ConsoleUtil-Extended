@@ -1,4 +1,4 @@
-set_xmakever("2.9.5")
+set_xmakever("3.1.1")
 
 -- Globals
 PROJECT_NAME = "ConsoleUtilSSE"
@@ -20,7 +20,7 @@ option_end()
 -- https://github.com/xmake-io/xmake-repo/tree/dev    
 add_requires("magic_enum", "yaml-cpp")
 
-includes("lib/commonlibsse-ng")
+includes("lib/CommonLibSSE-NG")
 
 -- policies
 set_policy("package.requires_lock", true)

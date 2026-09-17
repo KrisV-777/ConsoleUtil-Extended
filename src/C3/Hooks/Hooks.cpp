@@ -18,7 +18,6 @@ namespace C3
 
 	void Hooks::Install()
 	{
-		SKSE::AllocTrampoline(1 << 4);
 		auto& trampoline = SKSE::GetTrampoline();
 
 		REL::Relocation<std::uintptr_t> hookPoint;
